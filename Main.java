@@ -12,7 +12,11 @@ public class Main {
 		System.out.println("Number " + n + " in the Fibonacci Sequence is: " + x);
 		
 	}
-	
+	/**
+	 * Increases static variables x and y to the numbers in the
+	 * Fibonacci sequence at a<sub>n</sub> and a<sub>n-1</sub> respectively
+	 * @param n the location of a number in the Fibonacci sequence 
+	 */ 
 	public static void fibonacci(int n) {
 		
 		if(n==0) {
